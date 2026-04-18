@@ -1,0 +1,22 @@
+{
+  "name": "devtinder-be",
+  "version": "1.0.0",
+  "description": "Tinder for devs",
+  "keywords": [
+    "node",
+    "js",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Dharshini",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon src/app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
